@@ -1,5 +1,5 @@
 export interface Response{
-  collections: any;
+  data: any;
   message: string;
   hasErrors: boolean;
   errorMessages: Array<string>;

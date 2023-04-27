@@ -4,7 +4,7 @@
 
         <div class="card-header card-custom-top">
             <h5 class="align-middle text-dark">
-                Cadastrar nova conta
+                {{ contaEdit != null ? 'Alterar' : 'Cadastrar nova'}} conta
             </h5>
         </div>
         <form [formGroup]="formGroup">
